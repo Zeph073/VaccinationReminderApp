@@ -28,7 +28,7 @@ VaxConnect is an Android application developed to enhance child vaccination cove
 ## Contributors
 
 - [Developer Zeph](https://github.com/Zeph073)
-- [Developer Reuben Oluyali](https://github.com/Olualireuben)
+- [Developer Reuben Oluyali](https://github.com/Oluyalireuben)
 
 ## License
 
