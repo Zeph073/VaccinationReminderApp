@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:padding="16dp">
+
+
+    <!-- Header with Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Child Vaccination Information"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Image related to Child Vaccination -->
+    <ImageView
+        android:id="@+id/imageVaccination"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/e"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Text Content about Child Vaccination -->
+    <TextView
+        android:id="@+id/tvVaccinationInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Child Vaccination Information:\n\nVaccination is a crucial aspect of your child's health. It helps protect them from various serious diseases and ensures a healthy and safe childhood. Immunization is typically administered in several doses at specific ages. It is essential to adhere to the recommended vaccination schedule provided by healthcare professionals.\n\nVaccinations not only safeguard your child but also contribute to community immunity, protecting those who cannot be vaccinated. Consult with your pediatrician to stay informed about the vaccines your child needs and their importance in preventing illnesses.\n\nRemember, vaccination is a proactive measure that significantly contributes to your child's overall well-being."
+        android:layout_below="@id/imageVaccination"
+        android:layout_marginTop="16dp"/>
+
+
+    <!-- Instructions for Parents -->
+    <TextView
+        android:id="@+id/tvInstructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instructions for Parents:\n\n1. Ensure timely vaccinations for your child according to the recommended schedule.\n\n2. Keep track of vaccination records and upcoming appointments.\n\n3. Consult with healthcare professionals for any concerns or questions about vaccinations.\n\n4. Report any adverse reactions or side effects promptly.\n\n5. Stay informed about the importance of vaccinations in maintaining your child's health.\n\n6. Encourage other parents in your community to prioritize child vaccinations for collective well-being."
+        android:layout_below="@id/tvVaccinationInfo"
+        android:layout_marginTop="16dp"/>
+
+
+</RelativeLayout>

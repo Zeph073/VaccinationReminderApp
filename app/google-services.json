@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "139235591726",
+    "firebase_url": "https://vassconnect-default-rtdb.firebaseio.com",
+    "project_id": "vassconnect",
+    "storage_bucket": "vassconnect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139235591726:android:fcee443f2b78d5151381bf",
+        "android_client_info": {
+          "package_name": "com.example.vaccinationremindersystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCrKmBIIK2sTj_EUPudrs8fY65UmKIFqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
